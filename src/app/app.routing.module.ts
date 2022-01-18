@@ -12,6 +12,7 @@ const routes:Routes =[
   {path:'profile',component:ProfileComponent},
   {path:'cart',component:CartComponent}
 ];
+
 @NgModule({
   imports:[RouterModule.forChild(routes)],
   exports:[RouterModule]

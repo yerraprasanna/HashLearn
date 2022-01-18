@@ -1,1 +1,93 @@
-<p>courses works!</p>
+
+<div class ="container" style="background-color:black">
+<span style="color:white">Discover latest courses on Angular</span>
+</div>
+
+<igx-list>
+<igx-list-item *ngFor="let li of courseList">
+  <div class="row">
+     <div class="col-md-3">{{ li.name }}</div>
+     <div class="col-md-3">{{ li.price }}</div>
+     <div class="col-md-3">
+
+      <!-- <igx-icon igxListAction [color]="li.isFavourite ? 'yellow' : 'lightgray'" (click)="toggleFavorite(li)">star</igx-icon> -->
+     </div>
+  </div>
+
+</igx-list-item>
+</igx-list>
+
+<!-- <div class="list-group">
+
+
+    <br/>
+    <div class="row">
+      <div class="col-md-3">
+        <span class="mb-1">Angular basics course</span>
+      </div>
+      <div class="col-md-3">
+        <span>Maxmillian</span>
+      </div>
+      <div class="col-md-3">
+        <span>350</span>
+      </div>
+    </div>
+
+    <br/>
+    <div class="row">
+      <div class="col-md-3">
+        <span class="mb-1">Full stack course</span>
+      </div>
+      <div class="col-md-3">
+        <span>Maxmillian</span>
+      </div>
+      <div class="col-md-3">
+        <span>800</span>
+      </div>
+    </div>
+
+    <br/>
+    <div class="row">
+      <div class="col-md-3">
+        <span class="mb-1">Angular plus typescript course</span>
+      </div>
+
+      <div class="col-md-3">
+        <span>Maxmillian</span>
+      </div>
+
+      <div class="col-md-3">
+        <span>350</span>
+      </div>
+
+    </div>
+
+      <br/>
+
+      <div class="row">
+        <div class="col-md-3">
+          <span class="mb-1">Angular app development course</span>
+        </div>
+        <div class="col-md-3">
+          <span>Maxmillian</span>
+        </div>
+        <div class="col-md-3">
+          <span>350</span>
+        </div>
+      </div>
+
+    <br/>
+    <div class="row">
+      <div class="col-md-3">
+        <span class="mb-1">Angular master course</span>
+      </div>
+      <div class="col-md-3">
+        <span>Joe</span>
+      </div>
+      <div class="col-md-3">
+        <span>450</span>
+      </div>
+    </div>
+
+
+</div> -->
